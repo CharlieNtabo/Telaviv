@@ -160,6 +160,11 @@ html {
     }
 }
 
+/* body section .products {
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+} */
+
 .products #products-title {
   font-size: 36px;
   font-weight: 500;
@@ -190,9 +195,21 @@ html {
   color: var(--color-primary-600);
 }
 
-.product-card .product-order a span {
+.product-card .product-order span {
   color: var(--color-orange-200);
   
+}
+
+.product-order {
+  padding: 2px 6px;
+  background-color: var(--color-orange-200);
+  width: 50%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-card .product-order span a {
+  color: #ffffff;
 }
 
 .product-order box-icon {
